@@ -15,6 +15,31 @@ public class Time {
         this.second = second;
     }
 
+    // Let us get into accessor methods rn
+    public int getHour() {
+        return this.hour;
+    }
+
+    public int getMinute() {
+        return this.minute;
+    }
+
+    public double getSecond() {
+        return this.second;
+    }
+
+    public void setHour(int hour) {
+        this.hour = hour;
+    }
+
+    public void setMinute(int minute) {
+        this.minute = minute;
+    }
+
+    public void setSecond(double second) {
+        this.second = second;
+    }
+
     public static void main(String [] args) {
         System.out.println("How To Think Like A Computer Scientist");
 
