@@ -9,6 +9,12 @@ public class Time {
         this.second = 0.0;
     }
 
+    public Time(int hour, int minute, double second) {
+        this.hour = hour;
+        this.minute = minute;
+        this.second = second;
+    }
+
     public static void main(String [] args) {
         System.out.println("How To Think Like A Computer Scientist");
 
