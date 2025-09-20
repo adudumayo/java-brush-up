@@ -19,7 +19,9 @@ public class Time {
         System.out.println("How To Think Like A Computer Scientist");
 
         Time time = new Time();
+        Time time2 = new Time(3, 4, 3.0);
 
         System.out.println(time);
+        System.out.println(time2);
     }
 }
