@@ -11,5 +11,9 @@ public class Time {
 
     public static void main(String [] args) {
         System.out.println("How To Think Like A Computer Scientist");
+
+        Time time = new Time();
+
+        System.out.println(time);
     }
 }
